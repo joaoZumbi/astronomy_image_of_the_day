@@ -33,7 +33,7 @@ def main():
         st.write("Sorry, this media type is not supported.")
 
     # Rerun the app every 5 seconds
-    time.sleep(5)
+    time.sleep(20)
     st.experimental_rerun()
 
 if __name__ == '__main__':
